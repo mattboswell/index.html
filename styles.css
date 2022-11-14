@@ -22,23 +22,40 @@ a {
     max-width: 1140px;
     min-width: 200px;
     width: 96%;
-    margin: 40px 2% 0 45px;
+    margin: 50px 2% 0 45px;
 }
 
-div.lies {
+div.opp {
     width: 100%;
 }
 
-div.boss div.lies {
+div.boss div.opp {
     float: left;
-    display: inline-block;
     min-width: 167px;
-    min-height: 41px;
-    vertical-align: middle;
+    min-height: 167px;
     width: 50%;
+    height: fit-content;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 10px;
+
+
 }
 
 div {
+    display: block;
+}
+
+label {
+    cursor: default;
+}
+
+#search {
+    text-align: left;
+    max-height: max-content;
+    width: 100%;
+    float: left;
+    height: 100%;
     display: block;
 }
 
@@ -73,23 +90,29 @@ div {
     border: 1px solid #3079ed;
     align-items: center;
     text-align: center;
+    color: white;
+    padding: 5px;
 }
 
 .crazy {
     height: 30px;
     display: table-cell;
     vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 23px;
 
 }
 
 .foo {
     float: left;
     display: inline-block;
-    width: 16%;
-    height: 42px;
+    width: 26%;
+    max-height: fit-content;
     font-size: 13px;
-    line-height: 16px;
+    line-height: 20px;
     vertical-align: middle;
+    text-align: left;
+    margin-left: 23px;
 
 }
 
@@ -100,7 +123,8 @@ div {
     font-size: 13px;
     height: 25px;
     padding: 1px 8px;
-    width: 50%;
+    width: 25%;
+    float: middle;
 }
 
 .bar {
@@ -129,7 +153,6 @@ h6 {
 form {
     display: inline-block;
     width: 50%;
-    padding-top: 15%;
     margin-left: auto;
     margin-right: auto;
 }
