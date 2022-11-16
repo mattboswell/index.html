@@ -188,6 +188,7 @@ input[type=text] {
     display: block;
     box-sizing: border-box;
     margin: 8px 0;
+    cursor: default;
 
 
 }
